@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lia's Cute Corner</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fef6f6;
+            color: #333;
+        }
+        header {
+            background-color: #ffdde1;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #f7b7a3;
+        }
+        header h1 {
+            margin: 0;
+            color: #f6a2b4;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f7b7a3;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            background-color: #f6a2b4;
+        }
+        nav a:hover {
+            background-color: #f6a2b4;
+            color: #fff;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #ffdde1;
+            padding: 10px;
+            text-align: center;
+            border-top: 5px solid #f7b7a3;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Lia's Cute Corner</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm Lia. I love Bible study, music, and spending time with my friends and family. Feel free to explore my corner of the web!</p>
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <p>I'm passionate about Bible study, singing, and playing games. I also enjoy learning new things and spending quality time with loved ones.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me via email at <a href="mailto:lia@example.com">lia@example.com</a>. I'd love to hear from you!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Lia's Cute Corner. All rights reserved.</p>
+    </footer>
+</body>
+</html>
